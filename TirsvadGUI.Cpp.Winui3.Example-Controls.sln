@@ -13,6 +13,7 @@ Global
 		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Description = Winui3 controls - how to use
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C7B0AA7D-E52F-46A7-ABE2-E0C63F0040CC}.Debug|ARM64.ActiveCfg = Debug|ARM64
