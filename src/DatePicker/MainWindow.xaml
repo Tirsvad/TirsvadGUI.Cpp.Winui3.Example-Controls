@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="DatePicker.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DatePicker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal" Margin="0 10">
+            <Button x:Name="SaveBtn" Click="saveBtn_Click" HorizontalAlignment="Center">Save</Button>
+            <Button x:Name="LoadBtn" Click="loadBtn_Click" HorizontalAlignment="Center">Load</Button>
+        </StackPanel>
+        <DatePicker x:Name="myDatePicker" HorizontalAlignment="Center" Margin="0 10"/>
+        <StackPanel Orientation="Horizontal" Margin="0 10" VerticalAlignment="Center">
+            <TextBlock Text="value of attribute m_myDate " VerticalAlignment="Center"/>
+            <TextBox x:Name="myTextBox" Margin="5 0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
